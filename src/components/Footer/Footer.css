@@ -1,0 +1,43 @@
+.footer {
+    padding: 20px 40px;
+    
+    box-sizing: border-box;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__list {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+
+    margin-right: 40px;
+}
+
+.footer__item:last-of-type {
+    margin-right: 0;
+}
+
+.footer__item-img {
+    width: 15px;
+    height: 15px;
+}
+
+.footer__item-info {
+    margin: 0 0 0 8px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
