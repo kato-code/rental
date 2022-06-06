@@ -1,8 +1,29 @@
 .header {
-    padding: 20px 40px;
-
-    display: flex;
-    align-items: center;
+    padding: 20px;
 
     box-sizing: border-box;
+
+    background: url('../../images/home_page.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
 }
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__logo {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    
+    width: 150px;
+    height: 200px;
+}
+
+/* .header__logo-name {
+    margin: 0;
+} */

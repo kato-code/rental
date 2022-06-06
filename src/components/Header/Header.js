@@ -1,12 +1,18 @@
 import React from "react";
 import './Header.css';
+import logo from '../../images/logo.png';
 import Burger from '../Burger/Burger.js';
+import HomePage from "../HomePage/HomePage";
 
 function Header() {
     return (
         <header className="header">
-            <Burger />
-            <img className="header__logo logo" src="" alt="Логотип" />
+            <div className="header__container">
+                <img className="header__logo" src={logo} alt="Логотип" />
+                {/* <p className="header__logo-name">COFFIN RENTAL</p> */}
+                <Burger />
+            </div>
+            <HomePage />
         </header>
     )
 }
