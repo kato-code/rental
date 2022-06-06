@@ -14,11 +14,10 @@
 
 .app__container {
   min-width: 320px;
-  max-width: 1280px;
+  /* max-width: 1280px; */
   min-height: 100vh;
 
-  margin: 0;
-  /* padding: 0 40px; */
+  margin: 0 auto;
 
   box-sizing: border-box;
 }
