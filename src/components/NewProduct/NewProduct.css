@@ -23,6 +23,7 @@
 
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    scroll-padding: 50%;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -33,10 +34,9 @@
 .new__item {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
 
-    min-width: 370px;
+    min-width: 50%;
     height: 370px;
 
     margin-right: 10px;

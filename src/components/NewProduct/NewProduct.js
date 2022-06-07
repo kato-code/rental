@@ -27,7 +27,7 @@ function NewProduct() {
                     <h3 className="new__item-title">Камераблабла</h3>
                     <p className="new__item-subtitle">О kамереблабла</p>
                 </li>
-                <li className="new__item">
+                {/* <li className="new__item">
                     <p className="new__item-head">New</p>
                     <h3 className="new__item-title">Камераблабла</h3>
                     <p className="new__item-subtitle">О kамереблабла</p>
@@ -36,7 +36,7 @@ function NewProduct() {
                     <p className="new__item-head">New</p>
                     <h3 className="new__item-title">Камераблабла</h3>
                     <p className="new__item-subtitle">О kамереблабла</p>
-                </li>
+                </li> */}
             </ul>
         </section>
     )
