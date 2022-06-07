@@ -5,8 +5,8 @@ import './HomePage.css';
 function HomePage() {
     return (
         <div className="home-page__container">
-            <h2 className="home-page__title">Аренда оборудования</h2>
-            <p className="home-page__subtitle">Свет, камеры и аксессуары</p>
+            <h2 className="home-page__title">COFFIN RENTAL</h2>
+            <p className="home-page__subtitle">С техникой до гроба</p>
             <a className="home-page__link" href="#link">Посмотреть ассортимент &rarr;</a>
         </div>
     )
