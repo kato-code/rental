@@ -20,9 +20,9 @@ function Burger() {
                 <span></span>
                 <span></span>
             </div>
-            <div className={`burger ${isBurgerOpen ? 'burger_is-opened' : ''}`}>
-                <div className='burger__container'>
-                    <button type='button' className='burger__btn-close' onClick={handleCloseBurgerClick} />
+            <div className={`burger__overlay ${isBurgerOpen ? 'burger__overlay_is-opened' : ''}`}>
+                <div className={`burger__container ${isBurgerOpen ? 'burger_is-opened' : ''}`}>
+                    <button type='button' className="burger__btn-close" onClick={handleCloseBurgerClick} />
                         <nav className='burger__catalog'>Оборудование
                             <p className='burger__catalog-link'>Свет</p>
                             <p className='burger__catalog-link'>Свет</p>
