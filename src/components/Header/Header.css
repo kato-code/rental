@@ -8,7 +8,7 @@
 
     box-sizing: border-box;
 
-    background: url('../../images/home_page.jpg') no-repeat;
+    background: linear-gradient(45deg, rgba(20, 20, 20, 0.8), rgba(35, 35, 35, 0.5)), url('../../images/home_page.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -17,7 +17,6 @@
 .header__container {
     position: relative;
     display: flex;
-    /* justify-content: space-between; */
     justify-content: end;
     align-items: flex-start;
 }
