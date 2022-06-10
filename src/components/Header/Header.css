@@ -15,20 +15,36 @@
 }
 
 .header__container {
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: end;
     align-items: flex-start;
 }
 
 .header__logo {
-    /* position: absolute;
+    position: fixed;
     top: 0;
-    left: 0; */
+    left: 0;
     
-    width: 150px;
-    height: 200px;
+    width: 180px;
+    height: 220px;
+
+    z-index: 100;
 }
 
-/* .header__logo-name {
+.header__logo-name {
     margin: 0;
-} */
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin: 0;
+}

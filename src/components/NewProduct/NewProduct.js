@@ -9,34 +9,32 @@ function NewProduct() {
             <ul className="new__list list">
                 <li className="new__item">
                     <p className="new__item-head">New</p>
-                    <h3 className="new__item-title">Камераблабла</h3>
-                    <p className="new__item-subtitle">О kамереблабла</p>
+                    <div className="new__item-container">
+                        <h3 className="new__item-title">Камераблабла</h3>
+                        <p className="new__item-subtitle">О kамереблабла</p>
+                    </div>
                 </li>
                 <li className="new__item">
                     <p className="new__item-head">New</p>
-                    <h3 className="new__item-title">Камераблабла</h3>
-                    <p className="new__item-subtitle">О kамереблабла</p>
+                    <div className="new__item-container">
+                        <h3 className="new__item-title">Камераблабла</h3>
+                        <p className="new__item-subtitle">О kамереблабла</p>
+                    </div>
                 </li>
                 <li className="new__item">
                     <p className="new__item-head">New</p>
-                    <h3 className="new__item-title">Камераблабла</h3>
-                    <p className="new__item-subtitle">О kамереблабла</p>
+                    <div className="new__item-container">
+                        <h3 className="new__item-title">Камераблабла</h3>
+                        <p className="new__item-subtitle">О kамереблабла</p>
+                    </div>
                 </li>
                 <li className="new__item">
                     <p className="new__item-head">New</p>
-                    <h3 className="new__item-title">Камераблабла</h3>
-                    <p className="new__item-subtitle">О kамереблабла</p>
+                    <div className="new__item-container">
+                        <h3 className="new__item-title">Камераблабла</h3>
+                        <p className="new__item-subtitle">О kамереблабла</p>
+                    </div>
                 </li>
-                {/* <li className="new__item">
-                    <p className="new__item-head">New</p>
-                    <h3 className="new__item-title">Камераблабла</h3>
-                    <p className="new__item-subtitle">О kамереблабла</p>
-                </li>
-                <li className="new__item">
-                    <p className="new__item-head">New</p>
-                    <h3 className="new__item-title">Камераблабла</h3>
-                    <p className="new__item-subtitle">О kамереблабла</p>
-                </li> */}
             </ul>
         </section>
     )
