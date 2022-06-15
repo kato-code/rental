@@ -82,7 +82,7 @@
 
     box-sizing: border-box;
 
-    background-color: rgba(0, 0, 0, 0.875);
+    background-color: rgba(0, 0, 0, 0.87);
 
     z-index: 2;
 
@@ -120,25 +120,34 @@
     cursor: pointer;
 }
 
-.burger__catalog {
+.burger__list {
     font-weight: 500;
     font-size: 26px;
     line-height: 28px;
 }
 
-.burger__catalog-link {
+.burger__item {
+    margin-top: 40px;
+}
+
+.burger__item:last-of-type:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s linear;
+
+    cursor: pointer;
+}
+
+.burger__subitem {
     margin: 20px 0 0 40px;
 
     font-size: 22px;
     line-height: 24px;
-
-    text-decoration: none;
 }
 
-.burger__catalog-link:first-of-type {
-    margin-top: 40px;
+.burger__subitem:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s linear;
+
+    cursor: pointer;
 }
 
-.burger__contacts {
-    margin-top: 40px;
-}

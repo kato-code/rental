@@ -8,7 +8,7 @@
 
     box-sizing: border-box;
 
-    background: linear-gradient(45deg, rgba(20, 20, 20, 0.8), rgba(35, 35, 35, 0.5)), url('../../images/home_page.jpg') no-repeat;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(35, 35, 35, 0.5)), url('../../images/home_page.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -16,6 +16,7 @@
 
 .header__container {
     position: relative;
+
     display: flex;
     justify-content: end;
     align-items: flex-start;
@@ -30,20 +31,4 @@
     height: 220px;
 
     z-index: 100;
-}
-
-.header__logo-name {
-    margin: 0;
-
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.logo {
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    margin: 0;
 }

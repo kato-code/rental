@@ -9,7 +9,6 @@ function Header() {
         <header className="header">
             <div className="header__container">
                 <img className="header__logo" src={logo} alt="Логотип" />
-                {/* <p className="header__logo-name">COFFIN RENTAL</p> */}
                 <Burger />
             </div>
             <HomePage />

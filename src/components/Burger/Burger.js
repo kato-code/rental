@@ -23,15 +23,19 @@ function Burger() {
             <div className={`burger__overlay ${isBurgerOpen ? 'burger__overlay_is-opened' : ''}`}>
                 <div className={`burger__container ${isBurgerOpen ? 'burger_is-opened' : ''}`}>
                     <button type='button' className="burger__btn-close" onClick={handleCloseBurgerClick} />
-                        <nav className='burger__catalog'>Оборудование
-                            <p className='burger__catalog-link'>Свет</p>
-                            <p className='burger__catalog-link'>Свет</p>
-                            <p className='burger__catalog-link'>Свет</p>
-                            <p className='burger__catalog-link'>Свет</p>
-                            <p className='burger__catalog-link'>Свет</p>
-                            <p className='burger__catalog-link'>Свет</p>
-                            <div className='burger__contacts'>Контакты</div>
-                        </nav>
+                        <ul className='burger__list list'>
+                            <li className="burger__item">Оборудование
+                                <ul className='burger__list list'>
+                                    <li className='burger__subitem'>Камеры</li>
+                                    <li className='burger__subitem'>Оптика</li>
+                                    <li className='burger__subitem'>Световое оборудование</li>
+                                    <li className='burger__subitem'>Стабилизация</li>
+                                    <li className='burger__subitem'>Видеосендеры и мониторы</li>
+                                    <li className='burger__subitem'>Дополнительное оборудование</li>
+                                </ul>
+                            </li>
+                            <li className='burger__item'>Контакты</li>
+                        </ul>
                 </div>
             </div>
         </>
