@@ -9,8 +9,18 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer__container">
-                <div className="footer__logo logo"></div>
-                <ul className="footer__list list">
+                <div className="footer__about-us">
+                    <h2 className="footer__about-us-title">COFFIN RENTAL</h2>
+                    <p className="footer__about-us-info"> 
+                        <i>*Наш сайт еще нуждается в добавлении многих позиций. Если вы не видите того, что ищете, пожалуйста, свяжитесь с нами и мы сможем предложить альтернативные решения*</i> <br />
+                        <br /> Мы - небольшая, но прекрасно сформированная микро-компания по прокату оборудования и техническому обслуживанию ваших проектов. <br />
+                        Наша цель - стать вашем подрядчиком и поставлять вам новейшее оборудование, тщательно подготовленное и настроенное нашей, в меру, токсичной и, самое главное, профессиональной командой. <br />
+                        <br /> COFFIN RENTAL - с техникой до гроба.
+                    </p>
+                </div>
+                <div className="footer__contacts">
+                    <h2 className="footer__contacts-title">Контакты</h2>
+                    <ul className="footer__list list">
                     <li className="footer__item">
                         <img className='footer__item-img' src={iconAddress} alt='Иконка адреса' />
                         <p className='footer__item-info'>улица Правды, 24 строение 3</p>
@@ -24,6 +34,7 @@ function Footer() {
                         <p className='footer__item-info'>info@000.bla</p>
                     </li>
                 </ul>
+                </div>
             </div>
         </footer>
     )
