@@ -33,12 +33,18 @@
     height: 300px;
 
     background: url('../../images/catalog.png') no-repeat;
-    background-size: cover;
+    background-size: 300px;
     background-position: center;
 
     border: 1px solid #FF6600;
     border-radius: 20px;
     box-sizing: border-box;
+}
+
+.catalog__item:nth-child(6) {
+    background: url('../../images/cart.jpg') no-repeat;
+    background-position: center;
+    background-size: 300px;
 }
 
 .catalog__item:hover {
@@ -47,6 +53,13 @@
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.catalog__item-link {
+    width: 100%;
+    height: 100%;
+
+    color: #fff;
 }
 
 .catalog__item-container {
@@ -76,10 +89,6 @@
     font-weight: 500;
     font-size: 26px;
     line-height: 28px;
-
-    /* color: #FF6600; */
-
-    /* text-shadow: 0.5px 0.5px #ff781e; */
 }
 
 .catalog__item-arrow {
