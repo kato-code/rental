@@ -47,10 +47,6 @@
     background-size: cover;
 }
 
-.new__item:nth-child(2) {
-    
-}
-
 .new__item:last-of-type {
     margin-right: 0;
 }
