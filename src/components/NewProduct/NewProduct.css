@@ -34,11 +34,7 @@
 .new__item {
     position: relative;
 
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-
-    min-width: 50%;
+    min-width: 45%;
     height: 370px;
 
     margin-right: 10px;
@@ -49,17 +45,11 @@
     background: transparent url('../../images/new.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-
-    scroll-snap-align: start;
 }
 
-/* .new__item:nth-child(2) {
-
+.new__item:nth-child(2) {
+    
 }
-
-.new__item:nth-child(3) {
-
-} */
 
 .new__item:last-of-type {
     margin-right: 0;
@@ -85,11 +75,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
-
-    /* width: 100%; */
-    
-    /* padding-top: 60px; */
 
     background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);;
 }
