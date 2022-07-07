@@ -1,10 +1,7 @@
-.catalog {
-    padding: 40px 85px;
+.catalog__container {
+    padding: 40px 165px;
 
     box-sizing: border-box;
-
-    text-align: center;
-    color: rgba(255, 255, 255, 0.85);
 }
 
 .catalog__title {
@@ -17,7 +14,7 @@
 
 .catalog__list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
     grid-template-rows: auto;
     gap: 30px;
 
@@ -25,77 +22,44 @@
 }
 
 .catalog__item {
-    position: relative;
-
     display: flex;
-    align-items: flex-end;
-
-    height: 300px;
-
-    background: url('../../images/catalog.png') no-repeat;
-    background-size: 300px;
-    background-position: center;
-
-    border: 1px solid #FF6600;
-    border-radius: 20px;
-    box-sizing: border-box;
-}
-
-.catalog__item:nth-child(6) {
-    background: url('../../images/cart.jpg') no-repeat;
-    background-position: center;
-    background-size: 300px;
-}
-
-.catalog__item:hover {
-    cursor: pointer;
-
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.catalog__item-link {
-    width: 100%;
-    height: 100%;
-
-    color: #fff;
-}
-
-.catalog__item-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
-    width: 100%;
+    padding: 20px;
 
-    text-align: start;
-
-    padding: 60px 15px 15px;
-
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);;
+    height: 408px;
 
     box-sizing: border-box;
-    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+
+    background-color: #fff;
+
+    text-align: center;
+    color: #000;
+
+    border: 1px solid;
+}
+
+.catalog__item-img {
+    width: 257px;
+    height: 257px;
 }
 
 .catalog__item-title {
     margin: 0;
 
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 28px;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 24px;
 }
 
-.catalog__item-arrow {
-    width: 30px;
-    height: 30px;
+.catalog__item-price {
+    margin: 0;
 
-    background: url('../../images/icon_arrow.svg') no-repeat;
-    background-position: center;
-    background-size: contain;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
